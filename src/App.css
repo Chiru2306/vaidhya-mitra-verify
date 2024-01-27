@@ -28,6 +28,47 @@
   color: #61dafb;
 }
 
+.SearchBox {
+  margin-bottom: 20px;
+}
+
+.SearchBox input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.SearchBox button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SearchBox button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the verification text */
+.verification-text {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.verification-text p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d4cece;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
